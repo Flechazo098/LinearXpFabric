@@ -3,9 +3,9 @@
 	"id": "linearxpfabric",
 	"version": "${version}",
 	"name": "LinearXpFabric",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Makes it the same amount of XP required to increase the XP level for each level.\n\nThe amount of experience required to upgrade can be modified in Profile linearxpfabric.json, which defaults to 50.",
 	"authors": [
-		"Me!"
+		"Flechazo"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
