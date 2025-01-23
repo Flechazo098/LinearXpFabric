@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "linearxp",
+	"version": "${version}",
+	"name": "LinearXpFabric",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Flechazo",
+		"rinko1231",
+		"KL_jiana"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/linearxp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.flechazo.linearxp.LinearXp"
+		]
+	},
+	"mixins": [
+		"linearxp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
